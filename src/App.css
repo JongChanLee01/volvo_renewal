@@ -1,38 +1,540 @@
-.App {
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+
+/* reset */
+* {box-sizing: border-box;}
+body{ margin:0; font-family: 'Noto Sans KR', sans-serif; background-color: #fafafa;}
+h1,h2,h3,h4,h5,h6{margin: 0;padding: 0;}
+ul,ol{ margin: 0;padding: 0; list-style: none;}
+a{text-decoration: none; color:#333;}
+
+/* 볼보 색상 */
+/*
+  -공식 사이트 색상
+  #2a609d
+
+  -공식 사이트 사진에서 따온 색상
+  밝은것 부터 아래로 어두워짐
+  #859bb1
+  #526c87
+  #465f74
+*/
+
+/* video */
+/* video::-webkit-media-controls-fullscreen-button,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-mute-button {display: none;} */
+
+video::-webkit-media-controls {display: none;}
+
+/* Pop-up */
+#close {
+  display: none;
+}
+
+.main-modal {
+  padding: 50px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 70%;
+  overflow: hidden;
+  background-color: rgb(245, 247, 250);
+  border: 1px solid rgba(133, 155, 177, 0.5);
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px 0px gray;
+  
+}
+.main-modal button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 30px;
+  bottom: 50px;
+}
+.Text_popup_wrap {
+  display: block;
+  position: fixed;
+  top: 0; left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+}
+.ReactModal__Overlay{
+  z-index: 1100;
+}
+
+.popup_wrap {
+  /* display: none; */
+  position: fixed;
+  top: 0; left: 0;
+  background-color: rgba(1, 1, 1, 0.8);
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+}
+  .popup_modal {
+    position: relative;
+    width: 70%;
+    max-width: 1400px;
+    max-height: 900px;
+    background-color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+ .popup_modal h1 {
+   text-align: center;
+   font-size: 50px;
+ }
+ .popup_modal .modal_contents {
+   height: 700px;
+   overflow-y: auto;
+ }
+
+/* header */
+header {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  background-color: rgba(250, 250, 250, 0.9);
+  border-bottom: 1px solid #2a609d;
+  font-weight: bold;
+}
+
+  .header_wrap {
+    display: flex;
+    max-width: 1400px;
+    height: 80px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_wrap .logo {
+    width: 200px;
+  }
+  .header_wrap img {
+    display: block;
+    width: 200px;
+  }
+  
+  /* gnb */
+  .gnb_wrap{
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+  }
+    .gnb .gnb_wrap>ul{
+      width: 55%;
+      min-width: 500px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .gnb_wrap>ul>li {
+      line-height: 80px;
+      height: 80px;
+    }
+    .gnb li a{
+      display: block;
+      font-size: 16px;
+    }
+
+      .gnb_wrap:hover .sub_wrap{
+        border-bottom: 1px solid #2a609d;
+        height: 500px;
+      }
+      
+      .sub_wrap {
+        position: absolute;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        top: 81px;
+        left: 0;
+        transition: 0.25s ease-in-out;
+      }
+      .sub_contents {
+        margin: 0 auto;
+        max-width: 1400px;
+      }
+      /* 반응형으로 left 값 조정하기*/
+      .sub_contents::after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        top: 0;
+        left: calc(23% + 19px);
+        border-right: 1px solid #2a609d;
+      }
+      .sub_li {
+        padding: 30px 0;
+      }
+      .sub_li>a {
+        position: absolute;
+      }
+      .sub_conts_wrap {
+        position: absolute;
+        top: 10%;
+        left: 27%;
+      }
+      .sub span {
+        position: absolute;
+        font-size: 12.5px;
+        left: 0;
+        top: 19px;
+        color: #555;
+      }
+
+      .header_wrap .active a {
+        display: block;
+        color: #2a609d;
+      }
+
+  .search {
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    height: 30px;
+    margin-top: 25px;
+    min-width: 300px;
+  }
+    .search input {
+      min-width: 230px;
+      border: none;
+      background-color: transparent;
+      border-bottom: 1px solid #859bb1;
+    }
+    .search button {
+      border: none;
+      border-bottom: 1px solid #859bb1;
+      background: none;
+    }
+    .search button:last-child {
+      border-bottom: none;
+      background: none;
+    }
+    
+
+/* main */
+
+main {
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+  main .main_slide {
+    background-color: rgb(245, 247, 250)
+  }
+
+  /* Main slide */
+  main .main_wrap .main_slide_wrap{
+    width: 100%;
+    overflow: hidden;
+  }
+    main .main_slide_wrap .image_wrap {
+      position: relative;
+    }
+    main .main_slide_wrap .image_wrap .text_wrap {
+      position: absolute;
+      top: 15%;
+      left: 10%;
+      transform: translateY(-15%); 
+    }
+    
+    /* arrow_button */
+    main .slick-arrow{
+      position: absolute;
+      width: 50px; height: 70px;
+    }
+
+    main .slick-prev{
+      z-index: 10;
+      left: 1%;
+      background: url(../public/image/main_image/arrow/arrow_left_2.png) no-repeat center;
+      opacity: 0.5;
+    }
+    main .slick-prev:hover {
+      background: url(../public/image/main_image/arrow/arrow_left_2.png) no-repeat center;
+      opacity: 1;
+    }
+
+    /* 특수문자는 html에서 entity코드로 작성 */
+     /* 눈이 불편하신 분들도 읽을 수 있음 */
+    main .slick-prev::after{content: "\003C";}
+    main .slick-prev::before{
+      /* 글자 공간에서 밀어내기 */
+      font-size: 0; line-height: 0;
+      text-indent: -99999;
+    }
+
+
+    main .slick-next{
+      z-index: 10;
+      right: 1%;
+      background: url(../public/image/main_image/arrow/arrow_right_2.png) no-repeat center;
+      opacity: 0.5;
+    }
+    main .slick-next:hover {
+      background: url(../public/image/main_image/arrow/arrow_right_2.png) no-repeat center;
+      opacity: 1;
+    }
+    main .slick-next::after{content: "\003E";}
+    main .slick-next::before{
+      /* 글자 공간에서 밀어내기 */
+      font-size: 0; line-height: 0;
+      text-indent: -99999;  
+    }
+
+    /* page_button */
+    main .slick-dots{
+          position: absolute;
+          bottom: 2%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+    }
+
+    main .main_wrap img{
+      display: block;
+      width: 100%;
+    }
+
+
+/* Main Model */
+main .model_slide {
+  background-color: rgb(245, 247, 250);
+}
+
+main .model_wrap {
+  padding-top: 145px;
+  padding-bottom: 190px;
+  /* width: 1400px; */
+  overflow: hidden;
+  margin: 0 auto;
+}
+main .model_wrap .slick-slider {
+  
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+  .model_wrap h2{
+    font-size: 44px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .model_wrap .model_list .list_margin{
+    height: 350px;
+    padding: 20px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    border: 1px solid black;
+  }
+  /* .model_wrap .slick-active:nth-child(4n) .list_margin{
+    margin-right: 0;
+  } */
+
+  .model_wrap img{
+    display: block;
+    width: 100%;
+  }
+
+  /* model arrow */
+  main .model_wrap .slick-prev{
+    z-index: 10;
+    left: 1%;
+    background: url(../public/image/main_image/arrow/arrow_left.png) no-repeat center;
+    opacity: 0.5;
+  }
+  main .model_wrap .slick-prev:hover {
+    background: url(../public/image/main_image/arrow/arrow_left.png) no-repeat center;
+    opacity: 1;
+  }
+
+
+  main .model_wrap .slick-next{
+    z-index: 10;
+    right: 1%;
+    background: url(../public/image/main_image/arrow/arrow_right.png) no-repeat center;
+    opacity: 0.5;
+  }
+  main .model_wrap .slick-next:hover {
+    background: url(../public/image/main_image/arrow/arrow_right.png) no-repeat center;
+    opacity: 1;
+  }
+
+  main .model_wrap .slick-dots {
+    bottom: -30px;
+  }
+
+
+/* Main Content */
+
+main .content_wrap{
+  /* width: 1400px; */
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+main .content_wrap h2 {
+  font-size: 44px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main .video_wrap {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+main .electric_text_wrap {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main .electric {
+  margin-bottom: 150px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* volvo banner */
+.banner {
+  width: 100%;
+  padding-bottom: 150px;
+  /* height: 500px;
+  background-image: url("../public/image/main_image/content/HeroImg03.jpg"); */
+}
+
+.banner_wrap {
+  position: relative;
+  color: #fff;
+}
+.banner_wrap p {
+  position: absolute;
+  top: 40%;
+  right: 7%;
+  transform: translateY(-40%);
+  font-size: 20px;
+}
+.banner_wrap strong {
+  font-size: 50px;
+}
+
+.banner_wrap button {
+  position: absolute;
+  width: 580px;
+  height: 50px;
+  right: 7%;
+  bottom: 20%;
+  transform: translateY(20%);
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+}
+.banner_wrap button:hover {
+  background: rgba(133, 155, 177, 0.2);
+}
+
+/* event & news */
+main .volvo_tab {
+  margin: 0 auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+main .tab_btn {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+  main .tab_btn li {
+    /* padding: 5px 10px; */
+    background-color: rgb(221, 220, 220);
+    border-radius: 5px 5px 0 0;
+    border: 1px solid black;
+  }
+  main .tab_btn a{
+    padding: 5px 10px;
+    display: block;
+  }
+
+  main .on {
+    background-color: black;
+    color: white;
+    display: block;
+  }
+  main .click {
+    display: block;
+  }
+
+main .tab_wrap {
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+main .volvo_tab .display_wrap{
+  display: flex;
+  gap: 20px 2%;
+  flex-wrap: wrap;
+}
+main .volvo_event .event_wrap,
+.volvo_news .news_wrap {
+  width: 32%;
+  border: 1px solid rgb(85, 85, 85);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  /* footer */
+
+  footer {
+    margin: 0 auto;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.92);
+    font-size: 14px;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+    .footer_wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+
+      .footer_gnb {
+        display: flex;
+      }
+        .footer_gnb li {
+          padding: 0 20px;
+        }
+        .footer_gnb a {
+          color: rgba(255, 255, 255, 0.64);
+        }
+        .footer_gnb a:hover {
+          color: #ffffff;
+        }
+
+    .social_media ul {
+      display: flex;
+    }
+      .social_media ul li{
+        padding: 5px;
+      }
+      .social_media svg {
+        height: 1rem;
+        color: rgba(255, 255, 255, 0.64);
+      }
+      .social_media svg:hover {
+        color: #ffffff;
+      }
+

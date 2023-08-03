@@ -1,3 +1,21 @@
+# Volvo Renewal
+안녕하십니까.
+
+공백기동안 잊어버린 것들을 되새김 하기위해서 리액트 기반으로 퍼블리싱을 해보았습니다.
+되새김을 하기 위한것이므로 디자인적인 부분은 배제하였습니다.
+
+구글링을 하면서 하였습니다.
+
+  Nav는 map함수와 삼항연산자를 이용하여 만들어보았습니다.
+  모델 쪽 부분에서 Electric, Plug-in hybrids, Mild hybrids에 마우스를 가져대 대면 자동차 모델이 바뀌게 하였습니다.
+
+  슬라이드는 slick-slide플러그인을 이용하여 하였습니다.
+  
+  Volvo Electric 쪽 컨텐츠에 버튼이 하나 있는데 버튼을 누르면 자세히보기 팝업창을 띄우도록 하였습니다.
+  이 팝업창에서는 스크롤이 동작하도록 하였습니다.
+
+  탭버튼도 삼항연산자를 이용하여 만들어보았습니다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
