@@ -211,7 +211,7 @@ function Content() {
                 </div>
                 <div className="banner">
                     <div className="banner_wrap">
-                        <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image//main_image/content/HeroImg03.jpg" />
+                        <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/content/HeroImg03.jpg" />
                         <div className="banner_text">
                             <p>
                                 볼보가 큐레이션 하는 새로운 라이프 스타일 제안<br/>
