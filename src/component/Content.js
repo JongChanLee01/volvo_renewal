@@ -199,6 +199,11 @@ function Content() {
                             {/* <source src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/content/01-electric-car-hero_21x9.mp4" type="video/mp4" /> */}
                             고객님의 브라우저가 video를 지원하지 않습니다.
                         </video>
+                        <video src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/content/01-electric-car-hero_21x9.mp4" controls width="100%" autoPlay="autoplay" muted="muted" loop="loop" controlsList="nodownload">
+                            {/* <source src="./image/main_image/content/01-electric-car-hero_21x9.mp4" type="video/mp4" /> */}
+                            {/* <source src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/content/01-electric-car-hero_21x9.mp4" type="video/mp4" /> */}
+                            고객님의 브라우저가 video를 지원하지 않습니다.
+                        </video>
                     </div>
                     <div className="electric_text_wrap">
                         <p>
@@ -212,11 +217,6 @@ function Content() {
                 <div className="banner">
                     <div className="banner_wrap">
                         <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/content/HeroImg03.jpg" />
-                        <video src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/content/01-electric-car-hero_21x9.mp4" controls width="100%" autoPlay="autoplay" muted="muted" loop="loop" controlsList="nodownload">
-                            {/* <source src="./image/main_image/content/01-electric-car-hero_21x9.mp4" type="video/mp4" /> */}
-                            {/* <source src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/content/01-electric-car-hero_21x9.mp4" type="video/mp4" /> */}
-                            고객님의 브라우저가 video를 지원하지 않습니다.
-                        </video>
                         <div className="banner_text">
                             <p>
                                 볼보가 큐레이션 하는 새로운 라이프 스타일 제안<br/>
