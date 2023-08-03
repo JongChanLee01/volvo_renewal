@@ -154,8 +154,8 @@ function Nav() {
     <div>
       <div className="header_wrap">
         <div className="logo">
-          {/* <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/./image/main_image/volvo_logo.png" alt="로고" /> */}
-          <img src={ process.env.PUBLIC_URL + "./image/main_image/volvo_logo.png" } alt="로고" />
+          {/* <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/volvo_logo.png" alt="로고" /> */}
+          <img src={ process.env.PUBLIC_URL + "https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/volvo_logo.png" } alt="로고" />
         </div>
 
         <div className="gnb">
