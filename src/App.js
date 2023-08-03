@@ -1,4 +1,4 @@
-import react, {useState} from 'react';
+import React, {useState} from 'react';
 import Mainslider from './component/Mainslider';
 import Model from './component/Model';
 import Content from './component/Content';
