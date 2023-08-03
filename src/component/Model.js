@@ -28,7 +28,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/A green Volvo XC40 Recharge pure electric standing_.png" alt="electric XC40" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/A green Volvo XC40 Recharge pure electric standing_.png" alt="electric XC40" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -41,7 +41,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/A silver Volvo XC40 SUV standing still.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/A silver Volvo XC40 SUV standing still.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -54,7 +54,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a pure electric Volvo C4.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a pure electric Volvo C4.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -67,7 +67,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a Volvo S60 sedan.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a Volvo S60 sedan.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -80,7 +80,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a Volvo S90 Recharge plu.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a Volvo S90 Recharge plu.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -93,7 +93,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a Volvo S90 sedan.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a Volvo S90 sedan.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -106,7 +106,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a Volvo V60 Cross Countr.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a Volvo V60 Cross Countr.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -119,7 +119,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a Volvo V90 Cross Countr.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a Volvo V90 Cross Countr.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -132,7 +132,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a Volvo XC60 Recharge pl.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a Volvo XC60 Recharge pl.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -145,7 +145,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a Volvo XC60 SUV.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a Volvo XC60 SUV.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -158,7 +158,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a Volvo XC90 Recharge pl.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a Volvo XC90 Recharge pl.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
@@ -171,7 +171,7 @@ function Model() {
                         <div className="list_margin">
                             <div className="model_image">
                                 <a href="#none">
-                                    <img src="../image/main_image/main_model/The side profile of a Volvo XC90 SUV.png" />
+                                    <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_model/The side profile of a Volvo XC90 SUV.png" />
                                 </a>
                             </div>
                             <div className="model_btn">
