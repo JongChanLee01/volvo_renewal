@@ -68,7 +68,7 @@ function App() {
 
         <footer>
           <div className="footer_wrap">
-            <img src="https://jongchanlee01.github.io/volvo_renewal/image/main_image/volvo_logo_reverse.png" alt="로고"></img>
+            <img src="https://jongchanlee01.github.io/volvo_renewal/image/main_image/volvo_logo_reverse.png" alt="로고" />
             <div className="footer_gnb_wrap">
               <ul className="footer_gnb">
                 <li><a href="#" rel="noopener noreferrer">쿠키</a></li>
