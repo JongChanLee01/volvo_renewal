@@ -119,7 +119,7 @@ header {
     justify-content: space-between;
     align-items: center;
   }
-  .header_wrap .logo {
+  .logo {
     width: 200px;
   }
   .header_wrap img {
@@ -500,6 +500,11 @@ main .volvo_event .event_wrap,
     height: 150px;
     background-color: rgba(0, 0, 0, 0.92);
     font-size: 14px;
+  }
+
+  footer .logo img {
+    display: block;
+    width: 200px;
   }
 
     .footer_wrap {
