@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/volvo_renewal/static/css/main.63064222.css",
-    "main.js": "/volvo_renewal/static/js/main.d0ec34b2.js",
+    "main.js": "/volvo_renewal/static/js/main.7664b4b6.js",
     "static/js/787.189aa7e6.chunk.js": "/volvo_renewal/static/js/787.189aa7e6.chunk.js",
     "static/media/slick.svg": "/volvo_renewal/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/volvo_renewal/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/volvo_renewal/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/volvo_renewal/index.html",
     "main.63064222.css.map": "/volvo_renewal/static/css/main.63064222.css.map",
-    "main.d0ec34b2.js.map": "/volvo_renewal/static/js/main.d0ec34b2.js.map",
+    "main.7664b4b6.js.map": "/volvo_renewal/static/js/main.7664b4b6.js.map",
     "787.189aa7e6.chunk.js.map": "/volvo_renewal/static/js/787.189aa7e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63064222.css",
-    "static/js/main.d0ec34b2.js"
+    "static/js/main.7664b4b6.js"
   ]
 }
