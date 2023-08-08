@@ -34,7 +34,7 @@ function Mainslider() {
                                 <button>버튼</button>
                             </div>
                             {/* <img src="../image/main_image/main_slide/xc90_hybrid.jpg" alt="xc90 hybrid" /> */}
-                            <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_slide/xc90_hybrid.jpg" alt="xc90 hybrid" />
+                            <img src="https://jongchanlee01.github.io/volvo_renewal/image/main_image/main_slide/xc90_hybrid.jpg" alt="xc90 hybrid" />
                         </div>
                     </div>
                     <div className="image_wrap">
@@ -43,7 +43,7 @@ function Mainslider() {
                                 <p>제목, 간단한 설명 넣을곳</p>
                                 <button>버튼</button>
                             </div>
-                            <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_slide/s90-hybrid-hero-21x9.jpg" alt="s90 hybrid" />
+                            <img src="https://jongchanlee01.github.io/volvo_renewal/image/main_image/main_slide/s90-hybrid-hero-21x9.jpg" alt="s90 hybrid" />
                         </div>
                     </div>
                     <div className="image_wrap">
@@ -52,7 +52,7 @@ function Mainslider() {
                                 <p>제목, 간단한 설명 넣을곳</p>
                                 <button>버튼</button>
                             </div>
-                            <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_slide/xc60-hybrid-hero-21x9.jpg" alt="xc60 hybrid" />
+                            <img src="https://jongchanlee01.github.io/volvo_renewal/image/main_image/main_slide/xc60-hybrid-hero-21x9.jpg" alt="xc60 hybrid" />
                         </div>
                     </div>
                     <div className="image_wrap">
@@ -61,7 +61,7 @@ function Mainslider() {
                                 <p>제목, 간단한 설명 넣을곳</p>
                                 <button>버튼</button>
                             </div>
-                            <img src="https://jongchanlee01.github.io/volvo_renewal.github.io/image/main_image/main_slide/xc90-banner_consumer-insight_2560x1097.jpg" alt="xc90 hybrid" />
+                            <img src="https://jongchanlee01.github.io/volvo_renewal/image/main_image/main_slide/xc90-banner_consumer-insight_2560x1097.jpg" alt="xc90 hybrid" />
                         </div>
                     </div>
                 </Slider>
